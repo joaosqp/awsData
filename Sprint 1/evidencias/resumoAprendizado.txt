@@ -48,7 +48,7 @@ Seção 4 Gerenciamento de diretorios e arquivos:
 
 Seção 4 Gerenciamento de pacotes/atualizações:
 .sudo para ser o adm apt-get update para atualizar
-sudo apt-get update serve para atualizar repositorios
+.sudo apt-get update serve para atualizar repositorios
 .sudo apt-get upgrade serve para atualizar aplicativos
 .sudo apt-get install nomeaplicativo instalar aplicativo
 .sudo apt-get purge remover aplicativo
