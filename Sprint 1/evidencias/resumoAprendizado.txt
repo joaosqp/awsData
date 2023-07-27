@@ -1,3 +1,4 @@
+Git/GitHub
 Seção 8 explorando e entendendo:
 .fluxo do dia a dia do utilizando git/github
 .assim como o curso em video disse,ci/cd tenho que estudar
@@ -28,8 +29,7 @@ Seção 2 Teoria sobre linux:
 Seção 3 Linux fundamental:
 .crt+alt+T serve para abrir o terminal
 .terminal é uma tela que roda o shell, ele manda o comando pro shell que o shell tras a resposta que tem como sintaxe basica Comando -opções arquivos/diretorios.
-.comandos cd / mudar de diretorio/pasta cd .. volta de diretorio, cd ../Git/GitHub
-diretorio serve para ir mais rapido
+.comandos cd / mudar de diretorio/pasta cd .. volta de diretorio, cd ../diretorio serve para ir mais rapido
 .cd - leva para o ultimo diretorio que vc estava, cd ~ volta para a home, cd TabTab mostra os diretorios disponiveis, apertando Tab serve para autocompletar escrita ou mostra os diretorios com o nome semelhante, && serve como and para concatenar instruções cd /etc/ && ls em uma linha só
 .ls -l mostra a lista detalhada combinando parametros -la serve para mostrar as pastas ocultas detalhadas -lh serve para ser mais facil de ler pro humano -ltr mostra a data de motificação -l /diretorio lista os arquivos desse diretorio
 .ls -lr /diretorio serve para listar na ordem inversa o diretorio, ls -R serve mostrar todos os subdiretorios ou arquivos presentes nas pastas, ls -lS serve para listar os arquivos por tamanho, ls -M separa os arquivos por virgula, ls --help mostra detalhadamente cada comando do ls
@@ -46,22 +46,43 @@ Seção 4 Gerenciamento de diretorios e arquivos:
 .cp -r nomediretorio/* nomediretoriocopia copia tudo oq esta dentro do diretorio pra outro
 .mv nomearqoudiretorio diretoriodestino/ move de um local a outro, mv * diretorio move tudo pra dentro desse diretorio
 
-Seção 4 Gerenciamento de pacotes/atualizações:
+Seção 5 Gerenciamento de pacotes/atualizações:
 .sudo para ser o adm apt-get update para atualizar
-.sudo apt-get update serve para atualizar repositorios
+sudo apt-get update serve para atualizar repositorios
 .sudo apt-get upgrade serve para atualizar aplicativos
 .sudo apt-get install nomeaplicativo instalar aplicativo
 .sudo apt-get purge remover aplicativo
 .sudo apt-get autoremove remover aplicativo não necessarios
 
-Seção 5 filtro e busca de arquivos e diretorios:
+Seção 6 filtro e busca de arquivos e diretorios:
 .head serve para verificar as primeiras linhas do arquivo
 .tail serve para verificar as ultimas linhas do arquivo, tail -f serve para acompanhar logs
 .grap 'palavra buscada' nomearquivo busca palavras ou frases dentro de um arquivo especifico, grap 'palavra buscada' -r busca em todos os arquivos
 .find -name 'nome do arquivo' localiza aonde estar o arquivo
 
-Seção 6 editores de texto mais utilizados:
+Seção 7 editores de texto mais utilizados:
 .nano basta digitar no terminal para abrilo, crt+O salta e crt+X sai do arquivo
 .nano nomearquivo para abrir e editar, crt+R serve para puxar arquivos de outros para o mesmo
 .alt+A seleciona, alt+6 copia, crt+u cola, crt+K recorta igual o crt+x do windows
-.
+.crt+W serve para buscar alguma palavra ou frases crt+R busca e substitui palavras
+.vim :x salva e sai do arquivo, :W para salvar, :Q sai sem salvar
+.:%S/palavrabuscada/palavranova serve para buscar alguma palavra ou frases crt+R busca e substitui palavras
+
+Seção 8 Gerenciamento de usuarios e grupos:
+.sudo adduser nomeUsuario adiciona usuario
+.sudo userdel --remove nomeUsuario deleta um usuario
+.sudo usermod -c 'nomeNovo' nomeUsuario muda o nome do display do usuario
+.sudo usermod -l nomeNovo -d /home/nomeNovo -m nomeUsuario muda o nome do diretorio base e no terminal
+.sudo usermod -L nomeUsuario bloqueia o usuario
+.sudo usermod -U nomeUsuario desbloqueia usuario
+.sudo grupadd -g id de 4 numeros nomeGrupo
+.sudo grupdel nomeGrupo
+.passwd muda a senha
+
+Seção 9 Gerenciamento de permissões:
+.Permissão de leitura R, escrita W, execução de arqiovos X
+.chmod coloca as permissões
+.sudo chown altera o proprietario/owner do arquivo
+.sugo chgrp altera o grupo do arquivo
+.crt+shift+C copia crt+shift+V cola
+.history historico de todos os comandos digitados no terminal
