@@ -1,0 +1,67 @@
+Seção 8 explorando e entendendo:
+.fluxo do dia a dia do utilizando git/github
+.assim como o curso em video disse,ci/cd tenho que estudar
+.criação de projeto é bem interessante, visto que utiliza boards com o objetivo que busca(kanbam)
+.wiki pode ser muito util em grandes projetos, principalmente por ser explicativa
+.insights são as metricas para acompanhar o desenvolvimento do projeto ou verificar como foi elaborado com os colaboradores, todos os pull, push e para deixar padrão na comunidade
+.setings mostra as configurações, mudar nome, acesso, colaborador.
+.gists é um repositorio pessoal ou compartilhado seja ele com comandos prontos ou soluções do dia a dia
+.star nos projetos que gostou, fork pra continuar um projeto
+
+Seção 9 markdown:
+.é uma forma de adicionar estilo a texto na web, colocando imagem, link, trechos de codigos e afins
+.titulos são definidos por # representando <h1> no html e assim por diante
+.enfase nos textos **negrito**, *italico*
+.listas não ordenadas começam com * ITEM e ordenadas 1.Item
+.Imagem são inseridas com ![textoalt](LinkImagem)
+.Link são inseridos com [textolink](Link), link dentro de imagem [![textoalt](LinkImagem)](Link)
+.Codigo dentro do github ```linguagem do codigo e codigo```
+.lista com box de feito [x], sem box de feito [ ]
+
+
+Linux
+Seção 2 Teoria sobre linux:
+.Linux é free para estudos
+.Distribuição são as versões diferentes que compoe o sistema aberto do linux ou seja, ubunto, debian, mandriva e afins. Bom porque não obriga a utilizar a mais atualizada
+.kernel é um software programado em C e Assembly utilizado para fazer a comunição entre os hardware do sistema, controlar a CPU e fazer a ligação entre usuario e hardware
+
+Seção 3 Linux fundamental:
+.crt+alt+T serve para abrir o terminal
+.terminal é uma tela que roda o shell, ele manda o comando pro shell que o shell tras a resposta que tem como sintaxe basica Comando -opções arquivos/diretorios.
+.comandos cd / mudar de diretorio/pasta cd .. volta de diretorio, cd ../Git/GitHub
+diretorio serve para ir mais rapido
+.cd - leva para o ultimo diretorio que vc estava, cd ~ volta para a home, cd TabTab mostra os diretorios disponiveis, apertando Tab serve para autocompletar escrita ou mostra os diretorios com o nome semelhante, && serve como and para concatenar instruções cd /etc/ && ls em uma linha só
+.ls -l mostra a lista detalhada combinando parametros -la serve para mostrar as pastas ocultas detalhadas -lh serve para ser mais facil de ler pro humano -ltr mostra a data de motificação -l /diretorio lista os arquivos desse diretorio
+.ls -lr /diretorio serve para listar na ordem inversa o diretorio, ls -R serve mostrar todos os subdiretorios ou arquivos presentes nas pastas, ls -lS serve para listar os arquivos por tamanho, ls -M separa os arquivos por virgula, ls --help mostra detalhadamente cada comando do ls
+.clear limpa o terminal
+.cat diretorio é usado para exibir o conteúdo de um ou vários arquivos de texto cat diretorio1 diretorio2, combinar arquivos anexando o conteúdo de um arquivo ao final de outro arquivo e criar novos cat diretorio1 diretorio2 > diretorio3, cat -n diretorio mostra linha por linha facilita a leitura.
+.touch serve para criar arquivos e mudar a time stemp do arquivo
+.crt+R busca comandos utilizados
+
+Seção 4 Gerenciamento de diretorios e arquivos:
+.mkdir nomediretorio serve para criar um ou até 3 diretorios, mkdir -p nomediretorio serve para criar varios de uma vez
+.rm remove arquivos, rm -dv remove diretorios vazios, rm -rfv remove diretorios com arquivos ou diretorios
+.rmdir ele remove diretorios ou estruturas de diretorios
+.cp nomediretorio nomediretoriocopia copia arquvios, cp -r nomediretorio nomediretoriocopia copia diretorios
+.cp -r nomediretorio/* nomediretoriocopia copia tudo oq esta dentro do diretorio pra outro
+.mv nomearqoudiretorio diretoriodestino/ move de um local a outro, mv * diretorio move tudo pra dentro desse diretorio
+
+Seção 4 Gerenciamento de pacotes/atualizações:
+.sudo para ser o adm apt-get update para atualizar
+sudo apt-get update serve para atualizar repositorios
+.sudo apt-get upgrade serve para atualizar aplicativos
+.sudo apt-get install nomeaplicativo instalar aplicativo
+.sudo apt-get purge remover aplicativo
+.sudo apt-get autoremove remover aplicativo não necessarios
+
+Seção 5 filtro e busca de arquivos e diretorios:
+.head serve para verificar as primeiras linhas do arquivo
+.tail serve para verificar as ultimas linhas do arquivo, tail -f serve para acompanhar logs
+.grap 'palavra buscada' nomearquivo busca palavras ou frases dentro de um arquivo especifico, grap 'palavra buscada' -r busca em todos os arquivos
+.find -name 'nome do arquivo' localiza aonde estar o arquivo
+
+Seção 6 editores de texto mais utilizados:
+.nano basta digitar no terminal para abrilo, crt+O salta e crt+X sai do arquivo
+.nano nomearquivo para abrir e editar, crt+R serve para puxar arquivos de outros para o mesmo
+.alt+A seleciona, alt+6 copia, crt+u cola, crt+K recorta igual o crt+x do windows
+.
