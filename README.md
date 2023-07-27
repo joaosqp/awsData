@@ -6,7 +6,7 @@ Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - 
 
 ## Sprints 
 
-1. [Sprint 1](Sprint%201/README.md)
+1. [Sprint 1](Sprint%201/)
 
 
 # Dicas
