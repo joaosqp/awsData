@@ -21,12 +21,18 @@ Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - 
 
 ## Sprint 
 
-1. [Sprint 1](Sprint/)
+1. [Sprint 1](Sprint%201/)
 
 
 ## Resumo
 
 
+### &#128736;&#65039; Técnologias
+Foram utilizadas as seguintes ferramentas para a construção do projeto:
+
+- [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [Ubuntu](https://ubuntu.com/)
 
 
 
