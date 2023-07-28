@@ -1,39 +1,18 @@
-# Instruções
-
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
-
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
-
-
 # Exercícios
 
-
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
-
-
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
-
+Não foi elaborado nenhum exercicio nessa Sprint 1.
 
 
 
 # Evidências
 
-
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
-
-![Evidencia 1](evidencias/sample.webp)
-
-
+O processo de estudos foi elaborado com base na minha experiência com as ferramentas abordadas nos cursos. Nesse sentido, identifiquei os tópicos nos quais enfrentava maior dificuldade de memorização e os incluí em um resumo de cada vídeo, separado por seções.
 
 # Certificados
 
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
+- Certificado do curso Git e GitHub:
+![Curso Git e GitHub](certificados/Git%20e%20GitHub%20do%20básico%20ao%20avançado%20(c%20gist%20e%20GitHub%20Pages).jpg)
+
+- Certificado do curso Linux para Desenvolvedores:
+![Curso de Linux](certificados/Linux%20para%20Desenvolvedores%20(c%20terminal,%20Shell,%20Apache%20e%20).jpg)

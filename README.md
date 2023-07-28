@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.pinimg.com/originals/80/0b/5a/800b5ad22d27e85483b1c298802951e4.png" width = "200px" />
+<img src="https://i.pinimg.com/originals/80/0b/5a/800b5ad22d27e85483b1c298802951e4.png" width = "300px" />
 </div>
 
 <br/>
@@ -17,23 +17,22 @@
 
 ## Apresentação
 
-Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - MS, curso Engenharia de Software na UFMS, moro sozinho e fora do horario, trabalho como vendedor em uma tabacaria o que não tem nada a ver com TI, mas aqui estou, sempre estudando sozinho com muita marra e orgulho disso. Nunca acreditei que uma vontade de desenvolver site e quebrar cabeça com react.js acarretaria nessa oportunidade de "back end" ( famoso full stack ), tenho um sonho em trabalhar com desenvolvimento de jogos e estudar que a uns anos era chato, esta se tornando legal, pois, finalmente estou vendo resultado de alguns projetos pessoais. 
+Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - MS, curso Engenharia de Software na UFMS, moro sozinho e fora do horario, trabalho como vendedor em uma tabacaria o que não tem nada a ver com TI, mas aqui estou, sempre estudando sozinho com muita marra e orgulho disso. Nunca acreditei que uma vontade de desenvolver site e quebrar cabeça com react.js acarretaria nessa oportunidade de "back end" ( famoso full stack ), tenho um sonho em trabalhar com desenvolvimento de jogos e estudar que a uns anos era chato, esta se tornando legal, pois, finalmente estou vendo resultado de alguns projetos pessoais.
 
 ## Sprint 
 
 1. [Sprint 1](Sprint%201/)
 
-
 ## Resumo
 
 
-### &#128736;&#65039; Técnologias
+### Técnologias
 Foram utilizadas as seguintes ferramentas para a construção do projeto:
 
 - [VSCode](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - [Ubuntu](https://ubuntu.com/)
-
+- [VirtualBox](https://www.virtualbox.org/)
 
 
 
