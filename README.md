@@ -2,13 +2,16 @@
 <img src="https://i.pinimg.com/originals/80/0b/5a/800b5ad22d27e85483b1c298802951e4.png" width = "200px" />
 </div>
 
-<br/><br/><br/>
+<br/>
 
-<p align = "center">
-    <a href="#apresentação"> Apresentação</a>
-    <a href="#sprints"> Sprint</a>
-    <a href="#resumo"> Resumo</a>
-</p>
+<h3 align = "center"> 
+    <a href="#apresentação"> Apresentação</a> &nbsp; &bull; &nbsp;
+    <a href="#sprint"> Sprint</a> &nbsp; &bull; &nbsp;
+    <a href="#resumo"> Resumo</a> &nbsp; &bull; &nbsp;
+    <a href="#técnologias"> Técnologias</a> 
+</h3>
+
+<br/>
 
 # AWS BOLSA
 
@@ -18,7 +21,7 @@ Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - 
 
 ## Sprint 
 
-1. [Sprint 1](Sprint%201/)
+1. [Sprint 1](Sprint/)
 
 
 ## Resumo
