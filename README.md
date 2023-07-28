@@ -1,3 +1,4 @@
+
 <div align="center">
 <img src="https://i.pinimg.com/originals/80/0b/5a/800b5ad22d27e85483b1c298802951e4.png" width = "300px" />
 </div>
@@ -17,7 +18,10 @@
 
 ## Apresentação
 
-<h4 align ="justify">Meu nome é João Pedro e tenho 23 anos, atualmente residindo em Campo Grande - MS, curso Engenharia de Software na UFMS, moro sozinho e fora do horario, trabalho como vendedor em uma tabacaria o que não tem nada a ver com TI, mas aqui estou, sempre estudando sozinho com muita marra e orgulho disso. Nunca acreditei que uma vontade de desenvolver site e quebrar cabeça com react.js acarretaria nessa oportunidade de "back end" ( famoso full stack ), tenho um sonho em trabalhar com desenvolvimento de jogos e estudar que a uns anos era chato, esta se tornando legal, pois, finalmente estou vendo resultado de alguns projetos pessoais.
+<h4 align ="justify"> Meu nome é João Pedro, tenho 23 anos. Atualmente resido em Campo Grande - MS e curso Engenharia de Software na Universidade Federal de Mato Grosso do Sul. </br>
+Moro sozinho e fora do horário de aulas, trabalho como vendedor em uma tabacaria, o que não tem nada a ver com TI, mas aqui estou. Sempre estudo sozinho, com muita garra e orgulho disso. Nunca acreditei que minha vontade de desenvolver sites e quebrar a cabeça com React.js resultaria nessa oportunidade de atuar como "backend" agora serei o famoso full stack. Tenho o sonho de trabalhar com desenvolvimento de jogos. E estudar, que há alguns anos era chato, está se tornando um hábito que passei a gostar cada vez mais, principalmente agora que tenho visto bons resultados em alguns projetos pessoais.</br>
+Fiz o médio técnico integrado em eletrotécnica integrado no Instituto Federal de Mato Grosso do Sul - Campus Campo Grande, uma vertente completamente diferente da área de TI, e achava que minha vocação estaria relacionada à Engenharia Elétrica por isso. Também fui presidente do grêmio, o que me gerou uma boa habilidade comunicativa com outras pessoas.
+
 </h4>
 
 ## Sprint 
@@ -25,10 +29,23 @@
 1. [Sprint 1](Sprint%201/)
 
 ## Resumo
+### Git e GitHub
+<h4 align ="justify"> Pela necessidade de um sistema de controle de versão, foi criado o sistema Git, que é distribuído e amplamente utilizado no desenvolvimento de software com o objetivo principal de permitir que várias pessoas colaborem em um projeto, além de conter controle e rastreamento de mudanças em arquivos ao longo do tempo. Suas principais caracteristicas consciste em:</br>
+
+1. Controle de Versão Distribuído;
+2. Repositórios;
+3. Commits;
+4. Branches;
+5. Mesclar;
+6. Conflitos.
+   
+Já o GitHub se deu por conta da funcionalidade que é fornecer um espaço na web para que os desenvolvedores e equipes/times possam armazenar, gerenciar e colaborar em projetos de software usando o Git.
+ 
+</h4>
 
 
 ### Técnologias
-<h4 align ="justify"> Foram utilizadas as seguintes ferramentas para a construção do projeto:
+<h4> Foram utilizadas as seguintes ferramentas para a construção do projeto:
 </h4>
 
 - [VSCode](https://code.visualstudio.com/)
