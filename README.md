@@ -6,8 +6,6 @@
     <a href="#técnologias"> Técnologias</a> 
 </h3>
 
-<br/>
-
 # AWS BOLSA
 
 ## Apresentação
