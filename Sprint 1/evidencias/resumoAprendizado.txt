@@ -86,3 +86,6 @@ Seção 9 Gerenciamento de permissões:
 .sugo chgrp altera o grupo do arquivo
 .crt+shift+C copia crt+shift+V cola
 .history historico de todos os comandos digitados no terminal
+
+Seção 12 Instalando o LAMP
+.https://compassuol.udemy.com/course/linux-para-desenvolvedores-com-terminal-shell-apache/learn/lecture/16623034#overview
