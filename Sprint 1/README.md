@@ -6,7 +6,7 @@ Não foi elaborado nenhum exercicio nessa Sprint 1.
 
 # Evidências
 
-O processo de estudos foi elaborado com base na minha experiência com as ferramentas abordadas nos cursos. Nesse sentido, identifiquei os tópicos nos quais enfrentava maior dificuldade de memorização e os incluí em um resumo de cada vídeo, separado por seções.
+O processo de estudos foi elaborado com base na minha experiência com as ferramentas abordadas nos cursos. Nesse sentido, identifiquei os tópicos nos quais enfrentava maior dificuldade de memorização e os incluí em um [resumo](./evidencias/resumoAprendizado.txt) de cada vídeo, separado por seções.
 
 # Certificados
 
