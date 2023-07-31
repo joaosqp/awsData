@@ -47,7 +47,7 @@ Sendo assim, a melhor maneira e a mais eficiente de caminhar e manipular arquivo
 1. [Vim](https://br-linux.org/artigos/vim_intro.htm);
 2. [Nano](https://www.nano-editor.org/docs.php);
 
-Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado quando se fala em Linux, pois, sendo ele um sistema aberto essa administração de usuarios e grupos são essenciais para um funcionamento eficiente do sistema operacional, com a possíbilidade de restrição, permissão para [editar ou observar](https://docs.rockylinux.org/pt-BR/books/admin_guide/06-users/) arquivos aos usuarios.
+Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado quando se fala em Linux, pois, sendo ele um sistema aberto, essa administração de usuarios e grupos são essenciais para um funcionamento eficiente do sistema operacional, com a possíbilidade de restrição, permissão para [editar ou observar](https://docs.rockylinux.org/pt-BR/books/admin_guide/06-users/) arquivos aos usuarios.
 </h4>
 
 
