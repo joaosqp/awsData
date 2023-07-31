@@ -14,7 +14,8 @@
 <h4 align ="justify"> Meu nome é João Pedro, tenho 23 anos. Atualmente resido em Campo Grande - MS e curso Engenharia de Software na Universidade Federal de Mato Grosso do Sul.
 
 Moro sozinho e fora do horário de aulas, trabalho como vendedor em uma tabacaria, o que não tem nada a ver com TI, mas aqui estou. Sempre estudo sozinho, com muita garra e orgulho disso. Nunca acreditei que minha vontade de desenvolver sites e quebrar a cabeça com React.js resultaria nessa oportunidade de atuar como "backend" agora serei o famoso full stack. Tenho o sonho de trabalhar com desenvolvimento de jogos. E estudar, que há alguns anos era chato, está se tornando um hábito que passei a gostar cada vez mais, principalmente agora que tenho visto bons resultados em alguns projetos pessoais.  
-Fiz o médio técnico integrado em eletrotécnica no Instituto Federal de Mato Grosso do Sul - Campus Campo Grande, uma vertente completamente diferente da área de TI, e achava que minha vocação estaria relacionada à Engenharia Elétrica por isso. Também fui presidente do grêmio, o que me gerou uma boa habilidade comunicativa com outras pessoas.
+Fiz o médio técnico integrado em eletrotécnica no Instituto Federal de Mato Grosso do Sul - Campus Campo Grande, uma vertente completamente diferente da área de TI, e achava que minha vocação estaria relacionada à Engenharia Elétrica por isso. Também fui presidente do grêmio, o que me gerou uma boa habilidade comunicativa com outras pessoas.  
+Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiquei na primeira chamada na UFMS de Engenharia Elétrica, mas sim na Engenharia de Software. O segundo, não menos importante, foi que havia iniciado um curso de C# na Udemy sobre jogos de plataforma, do qual fiquei encantado logo de início, e foi assim que iniciei os estudos na área.
 </h4>
 
 ## Sprint 
@@ -52,10 +53,9 @@ Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado qua
 
 ## Técnologias
 <h4> Foram utilizadas as seguintes ferramentas para a construção do projeto:
-</h4>
 
 - [VSCode](https://code.visualstudio.com/);
 - [Git](https://git-scm.com/);
 - [Ubuntu](https://ubuntu.com/);
 - [VirtualBox](https://www.virtualbox.org/);
-
+</h4>
