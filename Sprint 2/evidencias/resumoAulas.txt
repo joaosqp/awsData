@@ -1,0 +1,42 @@
+Seção 3:
+.select serve para selecionar algo na coluna
+.select distinct serve para mostrar linhas distintas
+.where filtra as linhas da tabela de acordo com uma condição
+.order by serve para ordenar a seleção de acordo com uma regra definida pelo usuario
+.limit serve para limitar o nº de linhas da consulta
+
+Seção 4:
+.operadores de comparação servem para comparar dois valores retornando TRUE ou FALSE
+.operadores logicos usados para unir expressões simples em uma composta
+
+Seção 5:
+.Servem para executar operações aritmética nos registros de uma coluna
+.GROUP BY  serve para agrupar registros semelhantes de uma coluna
+.HAVING serve para filtrar linhas da seleção por uma coluna agrupada
+
+Seção 6:
+.JOIN servem para combinar colunas de uma ou mais tabelas (left join, inner join, right join, full join)
+
+Seção 8:
+.SUBQUERY servem para consultar dados de outras consultas.
+
+Seção 9:
+.CASE WHEN é o comando utilizado para criar respostas específicas para diferentes condições e é muito utilizado para fazer agrupamento de dados
+.COALESCE é o comando utilizado para preencher campos nulos com o primeiro
+.LOWER() é utilizado para transformar todo texto em letras minúsculas
+.UPPER() é utilizado para transformar todo texto em letras maiúsculas
+.TRIM() é utilizado para remover os espaços das extremidades de um texto
+.REPLACE() é utilizado para substituir uma string por outra string
+.O comando INTERVAL é utilizado para somar datas na unidade desejada. Caso a   unidade não seja informada, o SQL irá entender que a soma foi feita em dias.
+.O comando DATE_TRUNC é utilizado para truncar uma data no início do período
+.O comando EXTRACT é utilizado para extrair unidades de uma data/timestamp
+.Para criar funções, utiliza-se o comando CREATE FUNCTION
+.Para deletar uma função utiliza-se o comando DROP FUNCTION
+
+Seção 10:
+.Para criar tabelas a partir de uma query basta escrever a query normalmente e colocar o comando INTO antes do FROM informando o schema e o nome da tabela a ser criada
+.Para criar tabelas a partir do zero é necessário (a) criar uma tabela vazia com o comando CREATE TABLE (b) Informar que valores serão inseridos com o comando INSERT INTO seguido do nome das colunas (c) Inserir os valores manualmente em forma de lista após o comando VALUES
+.Para deletar uma tabela utiliza-se o comando DROP TABLE
+.Para inserir linhas em uma tabela é necessário (a) Informar que valores serão inseridos com o comando INSERT INTO seguido do nome da tabela e nome das colunas, Inserir os valores manualmente em forma de lista após o comando VALUES
+.Para atualizar as linhas de uma tabela é necessário (a) Informar qual tabela será atualizada com o comando UPDATE, Informar qual o novo valor com o comando SET, Delimitar qual linha será modificada utilizando o filtro WHERE
+.Para deletar linhas de uma tabela é necessário (a) Informar de qual tabela as linhas serão deletadas com o comando DELETE FROM (b) Delimitar qual linha será deletada utilizando o filtro WHERE
