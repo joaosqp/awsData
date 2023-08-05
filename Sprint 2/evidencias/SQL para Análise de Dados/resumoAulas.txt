@@ -40,3 +40,9 @@ Seção 10:
 .Para inserir linhas em uma tabela é necessário (a) Informar que valores serão inseridos com o comando INSERT INTO seguido do nome da tabela e nome das colunas, Inserir os valores manualmente em forma de lista após o comando VALUES
 .Para atualizar as linhas de uma tabela é necessário (a) Informar qual tabela será atualizada com o comando UPDATE, Informar qual o novo valor com o comando SET, Delimitar qual linha será modificada utilizando o filtro WHERE
 .Para deletar linhas de uma tabela é necessário (a) Informar de qual tabela as linhas serão deletadas com o comando DELETE FROM (b) Delimitar qual linha será deletada utilizando o filtro WHERE
+.Para fazer qualquer modificação nas colunas de uma tabela utiliza-se o comando ALTER TABLE seguido do nome da tabela
+.Para adicionar colunas utiliza-se o comando ADD seguido do nome da coluna e da unidade da nova coluna
+.Para mudar o tipo de unidade de uma coluna utiliza-se o comando ALTER COLUMN 
+.Para renomear uma coluna utiliza-se o comando RENAME COLUMN
+.Para deletar uma coluna utiliza-se o comando DROP COLUMN
+
