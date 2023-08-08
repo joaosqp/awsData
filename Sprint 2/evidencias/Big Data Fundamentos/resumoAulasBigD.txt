@@ -1,0 +1,21 @@
+3. SISTEMA DE ARMAZENAMENTOS DE DADOS
+.Banco de dados relacionais são dados estruturados e com schema bem definido, que é criado antes do armazenamento dos dados. 
+.Data Warehouse é criado com alguma tecnologia de banco relacional SGBD, Oracle, IBM, Microsoft SQL Server, PostgreeSQL, MySQL, entre outros, organizados em tabelas que se relacionam.
+.Bancos não relacionais NoSQL, não precisa definir o schema antes do armazenamento ou pode ser definido no momento do armazenamento de dados.
+.Data Wareahouse (DW) é um sistema de armazenamento que conecta e harmoniza grandes quantidades de dados com fontes diferentes, com o  objetivo de alimentar a Business Intelligence, relatorios e analises e oferecer suporte aos requisitos de negocios, sendo armazenado em um unico lugar com dados antigos e atuais.
+.Beneficios: Melhor analise de negócios, consultas mais rápidas, melhoria de qualidade dos dados, visão histórica.
+.Data Lakes armazenas dados em forma bruta/formato original seja estruturado ou não, quando for analizar ele transforma o dado para analise. Tendo diferentes tipos de analises como SQL, analises de Big Data, analises em tempo real.
+.DW e Data Lake utiliza os termos ETL(Extração, Transformação e Carga).
+.Beneficios: Armazenamento em formato bruto, importação de qualquer quantidade de dados em tempo real, repositorio central para todos os dados da empresa, sem necessidade de movimentação de dados.
+.Data Store armazenamento não só de dados estruturados mas tambem como tipos variados como documentos, dados no formato chave-valor, filas de mensagens entre outros.
+.Beneficios: Amazenamento de variados tipos de dados, flexibilidade, suporta a dados semi-estruturados, custo total menor.
+
+4. ARMAZENAMENTO E PROCESSAMENTO PARALELO
+.Cluster de computadores é um conjunto de servidores com o mesmo proposito, visando processar ou armazenar dados e possui escalabilidade horizontal, alem da escalabilidade vertical de cada maquina individual.
+.Apache hadoop 
+.Processamento paralelo o objetivo é dividir uma tarefa em varias sub-tarefas e executalas em paralelo, Apache hadoop MapReduce é um framework com esse proposito.
+.HDFS é um serviço rodando em todas as maquinas cluster, sendo um NameNode para gerenciar e os DataNodes que fazem o trabalho de armazenamento.
+.MapReduce é um serviço que roda em todas as maquinas cluster, sendo o JobTracker para gerenciar os processamentos e os Task Tracker que fazem o trabalho, o JobTracker consulta o NameNode a fim de saber a localização dos blocos de dados.
+
+5. CLOUD COMPUTING
+.Principais provedoras AWS, AZURE, Google CLOUD

@@ -1,9 +1,0 @@
-Cap 3:
-.Banco de dados relacionais são dados estruturados e com schema bem definido, que é criado antes do armazenamento dos dados. 
-.Data Warehouse é criado com alguma tecnologia de banco relacional SGBD, Oracle, IBM, Microsoft SQL Server, PostgreeSQL, MySQL, entre outros, organizados em tabelas que se relacionam.
-.Bancos não relacionais NoSQL, não precisa definir o schema antes do armazenamento ou pode ser definido no momento do armazenamento de dados.
-.Data Wareahouse (DW) é um sistema de armazenamento que conecta e harmoniza grandes quantidades de dados com fontes diferentes, com o  objetivo de alimentar a Business Intelligence, relatorios e analises e oferecer suporte aos requisitos de negocios, sendo armazenado em um unico lugar com dados antigos e atuais.
-.Beneficios: Melhor analise de negócios, consultas mais rápidas, melhoria de qualidade dos dados, visão histórica.
-.Data Lakes armazenas dados em forma bruta/formato original seja estruturado ou não, quando for analizar ele transforma o dado para analise. Tendo diferentes tipos de analises como SQL, analises de Big Data, analises em tempo real.
-.DW e Data Lake utiliza os termos ETL(Extração, Transformação e Carga).
-Beneficios: Armazenamento em formato bruto, importação de qualquer quantidade de dados em tempo real, repositorio central para todos os dados da empresa, sem necessidade de movimentação de dados.
