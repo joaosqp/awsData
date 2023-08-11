@@ -26,5 +26,21 @@
 .MLOPS é um conjunto de praticas para colaboração e comunicação entre cientistas de dados e profissionais de operações, sendo normalmente Engenheiro de ML. A aplicação dessas praticas aumenta a qualidade, simplifica o processo de gerenciamento e automatiza a implantação de modelos de aprendizado de maquina em ambientes de produção em grande escala. é mais fácil alinhar os modelos as necessidades de negócios bem como aos requisitos regulamentares.
 .MLOPS visa unificar o desenvolvimento de sistemas ML(DEV) e a implantação de sistemas de ML(OPS) para padronizar e agilizar a entrega continua de modelos de alto desempenho.
 .DevOps é uma abordagem para desenvolvimento de software que acelera o ciclo de vida de construção usando automação. Ele se concentra na implantação contínua do software sem aproveitando recursos de TI, reduz o tempo de implantação, o tempo de lançamento no mercado e minimiza defeitos e o tempo para resolver problemas.
-.MLOps - Operação de fluxo de trabalho em Machine Learning, AIOps - Operação do fluxo de trabalho em IA, DataOps - Conceito que abrange toda a operação de dados em uma empresa.
-.DataOps(Operações de dados) é uma metodologia agil e orientada a processos para desenvolver e entregar análises, sendo capaz de habilitar soluções, desenvolver produtos de dados e ativar dados para valor comercial em todas as camadas de tecnologia, tendo como objetivo, agilizar o design, o desenvolvimento e a manutenção de aplicativos com base de dados e análise de dados.
+. MLOps - Operação de fluxo de trabalho em Machine Learning, AIOps - Operação do fluxo de trabalho em IA, DataOps - Conceito que abrange toda a operação de dados em uma empresa.
+.DataOps(Operações de dados) é uma metodologia agil e orientada a processos para desenvolver e entregar analises, sendo capaz de habilitar soluções, desenvolver produtos de dados e ativar dados para valor comercial em todas as camadas de tecnologia, tendo como objetivo, agilizar o design, o desenvolvimento e a manutenção de aplicativos com base de dados e análise de dados.
+
+7. DADOS COMO SERVIÇOS
+.Data as a service(DaaS) é uma estrategia de dados de gerenciamento de dados que visa alavancar os dados como um ativo de negócios para maior agilidade no processo de análise, se tornou popupar nos anos 90 que começou com a introdução SaaS.
+.DaaS forcene uma maneira de gerenciar as grandes quantidades de dados que as organizações geram todos os dias e essas informações valiosas são fornecidas em toda a empresa para a tomada de decisões baseada em dados.
+.Arquitetura DaaS se concentra no provisionamento de dados de uma variedade de fontes sob demanda por meio de uso de APIs. Projetado para simplificar o acesso dos dados, o DaaS oferece conjuntos de daods ja tratados ou fluxos de dados para serem consumidos em uma variedade de formatos, geralmente unificados usando virtualização de dados (VIRTUAL DATA LAYER).
+.DaaS pode incluir uma variedade de tecnologias de gerenciamento de dados, incluindo virtualização de dados, serviços de dados, análise de autoatendimento (Self-Service Analytics) e catalogo de dados.
+.Beneficios: Monetização de dados, redução de custos, caminho mais rapido para inovação, agilidade no processo de decisão baseado em dados, menor risco no uso de dados, criação de uma cultura Data-Driven.
+
+8. ETL - EXTRAÇÃO, TRANSFORMAÇÃO E CARGA DE DADOS
+.CONCEITOS: 
+ETL pode dar gargalos e perderem dados pois transforma o dado antes utilizado em DW, ELT ele transforma o dado depois de colocar em um data, utilizado em DL.
+
+.9 COMO INICIAR UM PROJETO DE BIG DATA?
+.Big Data Analytics são os valores obtidos por meio dos dados de big data, exemplos de empresas que utilizam o big data analytics, empresas financeiras, empresas de saude, site d namoro eHarmony utiliza  ambiente cloud em analises complexas criando resultados mais personalisados e aumentando a chance de sucesso nos relacionamentos. Sendo o Hadoop a principal fonte de armazenamento de BigData.
+.Para inciar um projeto de Big Data: Definição do Business Case, Planejamento do projeto, Definição dos requisitos tecnicos, criação de um total 'business value assessment'.
+
