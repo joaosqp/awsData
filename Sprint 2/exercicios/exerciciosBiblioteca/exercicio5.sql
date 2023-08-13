@@ -4,7 +4,7 @@ Apresente a query para listar o nome dos autores que publicaram livros através 
 Não podem haver nomes repetidos em seu retorno.*/
 
 select 
-    nome
+    distinct aut.nome
     
 from autor as aut
 left join livro as liv
