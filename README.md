@@ -24,17 +24,11 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 2. [Sprint 2](/AWS-1-10/Sprint%202/README.md)
 
 ## Resumo
-### Git e GitHub
-<h4 align ="justify"> Pela necessidade de um sistema de controle de versão, foi criado o sistema Git, que é distribuído e amplamente utilizado no desenvolvimento de software com o objetivo principal de permitir que várias pessoas colaborem em um projeto, além de conter controle e rastreamento de mudanças em arquivos ao longo do tempo. Suas principais caracteristicas consciste em:
+### SQL para Analide de Dados
+<h4 align ="justify"> Sendo o SQLite um sistema de gerenciamento de banco de dados relacional embutido, ele é muito utilizado pela sua simplicidade e eficiência. Também conhecido por ser uma biblioteca compacta e autônoma, oferece suporte completo para SQL, permitindo a criação, manipulação e consulta de bancos de dados relacionais, tendo como principais comandos:
 
-1. [Controle de Versão Distribuído](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Sobre-Controle-de-Vers%C3%A3o);
-2. [Repositórios](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Obtendo-um-Reposit%C3%B3rio-Git);
-3. [Commits](https://git-scm.com/docs/git-commit);
-4. [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell);
-5. [Mesclar](https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge);
-6. [Conflitos](https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge#:~:text=Conflitos%20B%C3%A1sicos%20de%20Merge);
-   
-Já o GitHub se deu por conta da funcionalidade que é fornecer um espaço na web para que os desenvolvedores e equipes/times possam armazenar, gerenciar e colaborar em projetos de software usando o Git.
+1. [Select](https://www.sqlite.org/lang_select.html#:~:text=A%20instru%C3%A7%C3%A3o-,SELECT,-%C3%A9%20usada%20para);
+
 </h4>
 
 ### Linux
