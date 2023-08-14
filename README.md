@@ -20,8 +20,8 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 
 ## Sprint 
 
-1. [Sprint 1](/AWS-1-10/Sprint%201/README.md)
-2. [Sprint 2](/AWS-1-10/Sprint%202/README.md)
+1. [Sprint 1](/Sprint%201/README.md)
+2. [Sprint 2](/Sprint%202/README.md)
 
 ## Resumo
 ### SQL para Analide de Dados
