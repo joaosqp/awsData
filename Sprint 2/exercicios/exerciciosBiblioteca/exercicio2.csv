@@ -4,8 +4,8 @@ Atenção às colunas esperadas no resultado final:  titulo, valor.*/
 
 select
     titulo,
-    valor
+    valor;
 
-from livro
-order by valor desc
-limit 10
+from livro;
+order by valor desc;
+limit 10;
