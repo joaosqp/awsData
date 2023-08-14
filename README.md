@@ -44,9 +44,9 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 2. [Processamento Distribuído](https://www.sas.com/pt_br/insights/big-data/hadoop.html#:~:text=processar%20grandes%20quantidades);
 3. [Tecnologias de Armazenamento](https://aws.amazon.com/pt/emr/features/spark/#:~:text=O-,Amazon%20EMR,-%C3%A9%20o%20melhor);
 4. [Tecnologias de Processamento](https://aws.amazon.com/pt/serverless/#:~:text=Servi%C3%A7os%20sem%20servidor%20na%20AWS);
-5. [Aprendizado de Máquina e Análise Preditiva:](https://aws.amazon.com/pt/what-is/predictive-analytics/#:~:text=com%20an%C3%A1lises%20preditivas%3F-,O%20que%20%C3%A9%20an%C3%A1lise%20preditiva,-%3F);
-6. [Privacidade e Segurança:](https://aws.amazon.com/pt/security/?nc=snloc=0#:~:text=Seguran%C3%A7a%20estrat%C3%A9gica);
-7. [Economia de Dados:](https://www.knowsolution.com.br/entenda-como-a-analise-de-big-data-interfere-na-economia/#:~:text=Qual%20a%20rela%C3%A7%C3%A3o%20entre%20an%C3%A1lise%20de%20Big%20Data%20e%20Economia%3F);
+5. [Aprendizado de Máquina e Análise Preditiva](https://aws.amazon.com/pt/what-is/predictive-analytics/#:~:text=com%20an%C3%A1lises%20preditivas%3F-,O%20que%20%C3%A9%20an%C3%A1lise%20preditiva,-%3F);
+6. [Privacidade e Segurança](https://aws.amazon.com/pt/security/?nc=snloc=0#:~:text=Seguran%C3%A7a%20estrat%C3%A9gica);
+7. [Economia de Dados](https://www.knowsolution.com.br/entenda-como-a-analise-de-big-data-interfere-na-economia/#:~:text=Qual%20a%20rela%C3%A7%C3%A3o%20entre%20an%C3%A1lise%20de%20Big%20Data%20e%20Economia%3F);
 8. [Desafios](https://aws.amazon.com/pt/blogs/aws-brasil/jornada-para-nuvem-e-migracao-de-dados-oportunidades-e-desafios/#:~:text=Oportunidades%20e%20desafios);
 9. [Entre outros](https://aws.amazon.com/pt/big-data/what-is-big-data/#:~:text=de%20big%20data-,O%20que%20%C3%A9%20big%20data%3F,-Big%20data%20pode)
 
