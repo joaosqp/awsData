@@ -1,0 +1,17 @@
+select
+    liv.cod;
+    liv.titulo;
+    aut.codautor;
+    aut.nome;
+    liv.valor;
+    edi.codeditora;
+    edi.nome;
+    
+
+from livro as liv;
+left join editora as edi;
+    on liv.editora = edi.codeditora;
+left join autor as aut;
+    on liv.autor = aut.codautor;
+order by liv.valor desc;
+limit 10;
