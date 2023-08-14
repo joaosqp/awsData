@@ -1,10 +1,2 @@
-select 
-    edi.codeditora as CodEditora,
-    edi.nome as NomeEditora,
-    count(liv.editora) as QuantidadeLivros 
-    
-from editora as edi
-left join livro as liv
-    on edi.codeditora = liv.editora
-where liv.editora > 0
-group by edi.codeditora
+1| �tica|30
+13| CBMM|138
