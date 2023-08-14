@@ -27,22 +27,18 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 ### SQL para Analide de Dados
 <h4 align ="justify"> Sendo o SQLite um sistema de gerenciamento de banco de dados relacional embutido, ele é muito utilizado pela sua simplicidade e eficiência. Também conhecido por ser uma biblioteca compacta e autônoma, oferece suporte completo para SQL, permitindo a criação, manipulação e consulta de bancos de dados relacionais, tendo como principais comandos:
 
-1. [Select](https://www.sqlite.org/lang_select.html#:~:text=A%20instru%C3%A7%C3%A3o-,SELECT,-%C3%A9%20usada%20para);
-
+1. [Selecionar Dados com Condição ou sem condição](https://www.sqlite.org/lang_select.html#:~:text=Search-,SELECT,-%E2%96%BA%20Table%20Of);
+2. [Operadores de Condição](https://www.w3big.com/pt/sqlite/sqlite-operators.html#gsc.tab=0:~:text=SQLite%20Python-,operador%20de%20SQLite,-Anterior%3A%20Declara%C3%A7%C3%A3o%20de);
+3. [Operadores Lógicos](https://www.w3big.com/pt/sqlite/sqlite-and-or-clauses.html#gsc.tab=0:~:text=SQLite%20e%20/%20ou%20operador);
+4. [Agrupar Dados](https://www.w3big.com/pt/sqlite/sqlite-group-by.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20Group%20By,-Anterior%3A%20SQLite%20Ordem);
+5. [Ordenar Dados](https://www.w3big.com/pt/sqlite/sqlite-order-by.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20Ordem%20Por,-cl%C3%A1usula%20de%20limite);
+6. [Juntar Tabelas](https://www.w3big.com/pt/sqlite/sqlite-joins.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20junta,-Anterior%3A%20restri%C3%A7%C3%A3o%20SQLite);
+7. [Contar Registros](https://www.alura.com.br/artigos/select-count-count1-e-countnome-a-batalha-dos-counts-de-sql#:~:text=O-,select%20count,-verifica%20o%20n%C3%BAmero);
+8. [SubConsultas](https://www.w3big.com/pt/sqlite/sqlite-subquery.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20subconsulta,-Anterior%3A%20opera%C3%A7%C3%A3o%20SQLite);
 </h4>
 
-### Linux
-<h4 align ="justify"> Sendo o Linux um sistema operacional gratuito e de codigo aberto, seu kernel de código-fonte é aplamente disponível para visualização, modificação e redistribuição por qualquer usuario que deseja usufruir do mesmo. Com isso ele abre portas para as conhecidas distribuições Linux, dentre as milhares as mais utilizadas são:
-
-1. [Ubuntu](https://ubuntu.com/);
-2. [Fedora](https://fedoraproject.org/);
-3. [Debian](https://www.debian.org/);
-   
-Sendo assim, a melhor maneira e a mais eficiente de caminhar e manipular arquivos de texto para um projeto ou simplesmente se localizar, nas distribuições Linux, são os editores de texto que são amplamente utilizados em ambientes de linha de comando sem a necessidade de uma interface gráfica, os mais conhecidos entre eles:
-1. [Vim](https://br-linux.org/artigos/vim_intro.htm);
-2. [Nano](https://www.nano-editor.org/docs.php);
-
-Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado quando se fala em Linux, pois, sendo ele um sistema aberto, essa administração de usuarios e grupos são essenciais para um funcionamento eficiente do sistema operacional, com a possíbilidade de restrição, permissão para [editar ou observar](https://docs.rockylinux.org/pt-BR/books/admin_guide/06-users/) arquivos aos usuarios.
+### Big Data Fundamentos
+<h4 align ="justify"> O termo "Big Data" refere a abordagem de lidar com dados em grande escala, sendo eles estruturados, semiestruturados ou não estruturados, provenientes de fontes como dispositivos [IoT](https://aws.amazon.com/pt/what-is/iot/#:~:text=o%20AWS%20IoT-,O%20que%20%C3%A9%20a%20Internet%20das%20Coisas%20(IoT)%3F,-O%20termo%20IoT) , redes sociais, transações comerciais e mais. 
 </h4>
 
 
