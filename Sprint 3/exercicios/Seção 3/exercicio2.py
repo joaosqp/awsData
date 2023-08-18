@@ -9,7 +9,9 @@ Par: 2
 Ímpar: 3
 '''
 
-numero1 = int(input("Digite um número, 1:"))
-numero2 = int(input("Digite um número, 2:"))
-numero3 = int(input("Digite um número, 3:"))
-
+for i in range(3):
+    numero = int(input())
+    if numero % 2 == 0:
+        print("Par:", numero)
+    else:
+        print("Ímpar:", numero)

@@ -4,10 +4,15 @@ Desenvolva um código Python que lê do teclado nome e a idade atual de uma pess
 Como saída, imprima o ano em que a pessoa completará 100 anos de idade.
 '''
 
-nome = input("Digite seu nome:")
-idade = int(input("Digite sua idade:"))
+import datetime
 
-ano_hoje = 2023
+nome = input()
+idade = input()
+
+idade = int(idade)
+
+ano_hoje = datetime.datetime.now().year
 centenario = ano_hoje + (100 - idade)
 
-print(nome + ", Você completará 100 anos de idade em:", centenario)
+print(centenario)
+
