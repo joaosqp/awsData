@@ -1,0 +1,2 @@
+Para conjuntos de intersessão, união e afins
+https://www.w3schools.com/python/python_sets_join.asp
