@@ -11,21 +11,31 @@ Pardal emitindo som...
 Piu Piu'''
 
 class Passaro:
-    def voar(self, voar):
-        self.voar = voar
+    def voar(self):
+        print("Voando...")
+    
+    def emitir_som(self):
+        pass
+
 
 class Pato(Passaro):
-    def __init__(self, voar, emitir_som):
-        super().__init__(voar, emitir_som)
-        emitir_som = "Quack Quack"
+    def emitir_som(self):
+        print("Pato emitindo som...")
+        print("Quack Quack")
         
 
 class Pardal(Passaro):
-    def __init__(self, voar, emitir_som):
-        super().__init__(voar, emitir_som)
-        emitir_som = "Piu Piu"
+    def emitir_som(self):
+        print("Pardal emitindo som...")
+        print("Piu Piu")
         
 
-voar = "Voando..." 
-pato = Passaro(voar)
-pato.voar
+pato = Pato()
+print("Pato")
+pato.voar()
+pato.emitir_som()
+
+pardal = Pardal()
+print("Pardal")
+pardal.voar()
+pardal.emitir_som()
