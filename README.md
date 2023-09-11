@@ -25,7 +25,7 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 3. [Sprint 3](/Sprint%203/README.md)
 4. [Sprint 4](/Sprint%204/README.md)
 
-## Resumo das ferramentas usadas durante a bolsa.
+## Resumo
 ### Git e GitHub
 <h4 align ="justify"> Pela necessidade de um sistema de controle de versão, foi criado o sistema Git, que é distribuído e amplamente utilizado no desenvolvimento de software com o objetivo principal de permitir que várias pessoas colaborem em um projeto, além de conter controle e rastreamento de mudanças em arquivos ao longo do tempo. Suas principais caracteristicas consciste em:
 
