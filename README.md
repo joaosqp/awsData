@@ -23,8 +23,9 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 1. [Sprint 1](/Sprint%201/README.md)
 2. [Sprint 2](/Sprint%202/README.md)
 3. [Sprint 3](/Sprint%203/README.md)
+4. [Sprint 4](/Sprint%204/README.md)
 
-## Resumo
+## Resumo das ferramentas usadas durante a bolsa.
 ### Git e GitHub
 <h4 align ="justify"> Pela necessidade de um sistema de controle de versão, foi criado o sistema Git, que é distribuído e amplamente utilizado no desenvolvimento de software com o objetivo principal de permitir que várias pessoas colaborem em um projeto, além de conter controle e rastreamento de mudanças em arquivos ao longo do tempo. Suas principais caracteristicas consciste em:
 
@@ -33,7 +34,7 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 3. [Commits](https://git-scm.com/docs/git-commit);
 4. [Branches](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell);
 5. [Mesclar](https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge);
-6. [Conflitos](https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge#:~:text=Conflitos%20B%C3%A1sicos%20de%20Merge);
+6. [Conflitos](https://git-scm.com/book/pt-br/v2/Branches-no-Git-O-b%C3%A1sico-de-Ramifica%C3%A7%C3%A3o-Branch-e-Mesclagem-Merge#:~:text=Conflitos%20B%C3%A1sicos%20de%20Merge).
    
 Já o GitHub se deu por conta da funcionalidade que é fornecer um espaço na web para que os desenvolvedores e equipes/times possam armazenar, gerenciar e colaborar em projetos de software usando o Git.
 </h4>
@@ -43,11 +44,11 @@ Já o GitHub se deu por conta da funcionalidade que é fornecer um espaço na we
 
 1. [Ubuntu](https://ubuntu.com/);
 2. [Fedora](https://fedoraproject.org/);
-3. [Debian](https://www.debian.org/);
+3. [Debian](https://www.debian.org/).
    
 Sendo assim, a melhor maneira e a mais eficiente de caminhar e manipular arquivos de texto para um projeto ou simplesmente se localizar, nas distribuições Linux, são os editores de texto que são amplamente utilizados em ambientes de linha de comando sem a necessidade de uma interface gráfica, os mais conhecidos entre eles:
 1. [Vim](https://br-linux.org/artigos/vim_intro.htm);
-2. [Nano](https://www.nano-editor.org/docs.php);
+2. [Nano](https://www.nano-editor.org/docs.php).
    
 Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado quando se fala em Linux, pois, sendo ele um sistema aberto, essa administração de usuarios e grupos são essenciais para um funcionamento eficiente do sistema operacional, com a possíbilidade de restrição, permissão para [editar ou observar](https://docs.rockylinux.org/pt-BR/books/admin_guide/06-users/) arquivos aos usuarios.
 </h4>
@@ -64,7 +65,7 @@ Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado qua
 5. [Ordenar Dados](https://www.w3big.com/pt/sqlite/sqlite-order-by.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20Ordem%20Por,-cl%C3%A1usula%20de%20limite);
 6. [Juntar Tabelas](https://www.w3big.com/pt/sqlite/sqlite-joins.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20junta,-Anterior%3A%20restri%C3%A7%C3%A3o%20SQLite);
 7. [Contar Registros](https://www.alura.com.br/artigos/select-count-count1-e-countnome-a-batalha-dos-counts-de-sql#:~:text=O-,select%20count,-verifica%20o%20n%C3%BAmero);
-8. [SubConsultas](https://www.w3big.com/pt/sqlite/sqlite-subquery.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20subconsulta,-Anterior%3A%20opera%C3%A7%C3%A3o%20SQLite);
+8. [SubConsultas](https://www.w3big.com/pt/sqlite/sqlite-subquery.html#gsc.tab=0:~:text=SQLite%20Python-,SQLite%20subconsulta,-Anterior%3A%20opera%C3%A7%C3%A3o%20SQLite).
 
 
 ### Big Data Fundamentos
@@ -78,7 +79,7 @@ Com isso, o gerenciamento de usuários e grupos é um assunto muito abordado qua
 6. [Privacidade e Segurança](https://aws.amazon.com/pt/security/?nc=snloc=0#:~:text=Seguran%C3%A7a%20estrat%C3%A9gica);
 7. [Economia de Dados](https://www.knowsolution.com.br/entenda-como-a-analise-de-big-data-interfere-na-economia/#:~:text=Qual%20a%20rela%C3%A7%C3%A3o%20entre%20an%C3%A1lise%20de%20Big%20Data%20e%20Economia%3F);
 8. [Desafios](https://aws.amazon.com/pt/blogs/aws-brasil/jornada-para-nuvem-e-migracao-de-dados-oportunidades-e-desafios/#:~:text=Oportunidades%20e%20desafios);
-9. [Entre outros](https://aws.amazon.com/pt/big-data/what-is-big-data/#:~:text=de%20big%20data-,O%20que%20%C3%A9%20big%20data%3F,-Big%20data%20pode)
+9. [Entre outros](https://aws.amazon.com/pt/big-data/what-is-big-data/#:~:text=de%20big%20data-,O%20que%20%C3%A9%20big%20data%3F,-Big%20data%20pode).
 </h4>
 
 
@@ -99,6 +100,16 @@ Durante o percurso da sprint, que abrange desde os conceitos básicos até os av
 </h4>
 
 
+### Docker com Docker Swarm e Kubernetes
+<h4 align ="justify">  O Docker é uma plataforma que permite empacotar aplicativos e suas dependências em contêineres isolados, que são unidades leves que incluem tudo o necessário para a execução. O Docker Swarm é uma solução de orquestração nativa que cria e gerencia clusters de contêineres, enquanto o Kubernetes, uma plataforma de código aberto, oferece implantação, dimensionamento e gerenciamento avançados de aplicativos em contêineres, incluindo recursos como balanceamento de carga e escalabilidade automática. Tendo como principais caracteristicas:
+
+1. [Contêineres](https://www.docker.com/resources/what-container/);
+2. [Dockerfile](https://docs.docker.com/engine/reference/builder/);
+3. [Docker Compose](https://docs.docker.com/compose/);
+4. [Redes e Volumes](https://docs.aws.amazon.com/pt_br/AmazonECS/latest/developerguide/docker-volumes.html);
+5. [Swarm](https://docs.docker.com/engine/swarm/);
+6. [Kubernetes](https://www.docker.com/products/kubernetes/).
+
 
 ## Técnologias
 <h4> Foram utilizadas as seguintes ferramentas para a construção do projeto:
@@ -108,5 +119,5 @@ Durante o percurso da sprint, que abrange desde os conceitos básicos até os av
 - [SQLite Studio](https://sqlitestudio.pl/);
 - [pgAdmin](https://www.pgadmin.org/);
 - [Python](https://www.python.org/);
-
+- [Docker](https://www.docker.com/).
 </h4>
