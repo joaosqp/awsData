@@ -1,0 +1,23 @@
+Saiba mais no: AWS Certified Cloud Practitioner Exam Guide (Guia do exame AWS Certified Cloud Practitioner)
+https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
+
+Saiba mais em: AWS Certified Cloud Practitioner
+https://aws.amazon.com/pt/certification/certified-cloud-practitioner/
+
+Saiba mais em: Six Advantages of Cloud Computing (Seis vantagens da computação em nuvem)
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
+
+Saiba mais em: Fundamentos da AWS: principais conceitos
+https://aws.amazon.com/pt/getting-started/cloud-essentials/
+
+Saiba mais em: Valor comercial na AWS
+https://aws.amazon.com/pt/executive-insights/content/business-value-on-aws/
+
+Saiba mais em: AWS Pricing/TCO Tools (Ferramentas de custo total de propriedade/preços da AWS)
+https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-pricingtco-tools.html
+
+Saiba mais em: Optimizing your cost with Rightsizing Recommendations (Otimização do seu custo com as recomendações de definição do tamanho certo)
+https://docs.aws.amazon.com/cost-management/latest/userguide/ce-rightsizing.html
+
+Saiba mais em: AWS Well-Architected
+https://aws.amazon.com/pt/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc
