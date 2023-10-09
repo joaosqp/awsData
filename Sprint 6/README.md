@@ -1,6 +1,6 @@
 # Exercícios
 
-Sprint sem exercicios.
+Sprint com apenas os LABS em exercicios.
 
 
 # Evidências
