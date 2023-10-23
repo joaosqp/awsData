@@ -26,6 +26,7 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 4. [Sprint 4](/Sprint%204/README.md)
 5. [Sprint 5](/Sprint%205/README.md)
 6. [Sprint 6](/Sprint%206/README.md)
+7. [Sprint 7](/Sprint%207/README.md)
 
 ## Resumo
 ### Git e GitHub
