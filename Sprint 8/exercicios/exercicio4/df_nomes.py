@@ -55,11 +55,39 @@ df_nomes = df_nomes.withColumn("AnoNascimento", (lit(1945) + (rand() * (2010 - 1
 df_nomes.show(10)
 
 # Converta o campo "AnoNascimento" em uma data válida, considerando o primeiro dia do ano
-df_nomes = df_nomes.withColumn("DataNascimento", to_date(concat_ws("-", col("AnoNascimento"), lit("01"), lit("01")), "DD-MM-YYYY"))
+df_nomes = df_nomes.withColumn("DataNascimento", to_date(concat_ws("-", col("AnoNascimento"), lit("01"), lit("01")), "yyyy-MM-dd"))
 
 # Selecione as pessoas que nasceram neste século (a partir de 2000)
 df_select = df_nomes.filter(year("DataNascimento") >= 2000)
 
 # Mostre os 10 primeiros nomes e suas respectivas datas de nascimento
 df_select.select("Nomes", "DataNascimento").show(10)
+
+# Filtrar as pessoas da geração Millennials (nascidos entre 1980 e 1994)
+millennials_count_df = df_nomes.filter((year("DataNascimento") >= 1980) & (year("DataNascimento") <= 1994))
+
+# Conte o número de pessoas da geração Millennials
+millennials_count = millennials_count_df.count()
+
+# Mostre o resultado em um novo DataFrame
+result_df = spark.createDataFrame([(millennials_count,)], ["Count"])
+
+millennials_count = df_nomes.select("DataNascimento")\
+    .filter((year("DataNascimento") >= 1980) & (year("DataNascimento") <= 1994))\
+    .count()
+
+# Exiba o número de pessoas da geração Millennials
+millennials_count
+
+query = """
+SELECT COUNT(*) AS MillennialsCount
+FROM pessoas
+WHERE year(DataNascimento) >= 1980 AND year(DataNascimento) <= 1994
+"""
+
+millennials_count_df = spark.sql(query)
+
+# Exiba o resultado
+millennials_count = millennials_count_df.first().MillennialsCount
+millennials_count
 
