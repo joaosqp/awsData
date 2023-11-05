@@ -62,6 +62,21 @@ df_select = df_nomes.filter(year("DataNascimento") >= 2000)
 # Mostrando os 10 primeiros nomes e suas respectivas datas de nascimento
 df_select.select("Nomes", "DataNascimento").show(10)
 
+# Registrando o DataFrame df_nomes como uma tabela temporária
+df_nomes.createOrReplaceTempView("pessoas")
+
+# Executando uma consulta Spark SQL para selecionar as pessoas que nasceram neste século (a partir de 2000)
+query = """
+    SELECT Nomes, DataNascimento
+    FROM pessoas
+    WHERE year(DataNascimento) >= 2000
+    LIMIT 10
+"""
+
+df_result = spark.sql(query)
+
+df_result.show()
+
 # Filtrando as pessoas da geração Millennials (nascidas entre 1980 e 1994)
 millennials_count_df = df_nomes.filter(
     (year("DataNascimento") >= 1980) & (year("DataNascimento") <= 1994))
@@ -73,9 +88,9 @@ print(millennials_count)
 
 # Executando a consulta Spark SQL
 query = """
-SELECT COUNT(*) AS MillennialsCount
-FROM df_nomes
-WHERE year(DataNascimento) >= 1980 AND year(DataNascimento) <= 1994
+    SELECT COUNT(*) AS MillennialsCount
+    FROM df_nomes
+    WHERE year(DataNascimento) >= 1980 AND year(DataNascimento) <= 1994
 """
 
 millennials_count_df = spark.sql(query)
