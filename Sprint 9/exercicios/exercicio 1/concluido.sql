@@ -1,5 +1,5 @@
 --
--- Arquivo gerado com SQLiteStudio v3.4.4 em qua nov 8 09:45:38 2023
+-- Arquivo gerado com SQLiteStudio v3.4.4 em qua nov 8 09:47:22 2023
 --
 -- Codificação de texto usada: System
 --
