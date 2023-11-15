@@ -1,5 +1,4 @@
 import sys
-import sys
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
@@ -18,11 +17,15 @@ job.init(args['JOB_NAME'], args)
 source_path = args['S3_INPUT_PATH']
 target_path = args['S3_TARGET_PATH']
 
+# Extrair a data da estrutura do caminho de origem
+ano = "2023"
+mes = "11"
+dia = "07"
+
 # Leitura dos arquivos JSON
 df = spark.read.json(source_path)
 
-# Extrair a data de coleta do caminho do arquivo
-data_coleta = "2023-11-07"
-
 # Escrever os dados no formato Parquet com o nome do arquivo contendo a data
-df.write.mode("append").parquet(f"{target_path}/data_coleta={data_coleta}")
+df.write.mode("append").parquet(f"{target_path}/{ano}/{mes}/{dia}")
+
+
