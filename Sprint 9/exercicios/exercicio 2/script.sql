@@ -9,7 +9,6 @@ FROM vendedor
 
 CREATE VIEW  dim_combustivel AS
 SELECT
-    combustivel     as combustivel,
     idcombustivel   as id,
     tipoCombustivel as tipo
 FROM combustivel;

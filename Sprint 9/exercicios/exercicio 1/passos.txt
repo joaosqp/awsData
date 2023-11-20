@@ -1,0 +1,3 @@
+Após analisar a tabela, optei por dividi-la em tabelas distintas, cada uma representando uma entidade específica, como Cliente, Combustível, Carro, Vendedor e Locações. 
+Essa ordenação foi escolhida cuidadosamente, considerando que a criação de chaves estrangeiras de algumas tabelas pode gerar erros se não seguir uma ordem adequada.
+Com essa abordagem, tornou-se evidente quais seriam as chaves primárias e estrangeiras de cada tabela. Essa divisão facilitou a prevenção de anomalias no banco de dados.

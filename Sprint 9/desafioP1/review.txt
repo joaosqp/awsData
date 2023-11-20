@@ -1,2 +1,0 @@
-Fiz o codigo scriptJSON.py utilizando pandas, pois os mesmos arquivos gerados na sprint passadas foram por ele.
-Visto que o spark tem outra maneira de formatação, os dados transformados em parquet estavam saindo todos desformatados.

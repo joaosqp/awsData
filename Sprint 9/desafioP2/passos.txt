@@ -1,0 +1,1 @@
+Modelagem elaborada para analises especificas com esses dados. Por exemplo, orcamento e receita de filmes com N minutos.

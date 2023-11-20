@@ -15,10 +15,6 @@ CREATE TABLE locacao (
     FOREIGN KEY(idcombustivel) REFERENCES combustivel(idcombustivel),
     FOREIGN KEY(idVendedor) REFERENCES vendedor(idVendedor)
 );
-INSERT INTO locacao (idLocacao, idCliente, idCarro, idcombustivel, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega, idVendedor)
-SELECT idLocacao, idCliente, idCarro, idcombustivel, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega, idVendedor
-FROM tb_locacao;
-
 
 CREATE TABLE cliente (
     idCliente       int primary key,
@@ -27,10 +23,6 @@ CREATE TABLE cliente (
     estadoCliente   varchar(50),
     paisCliente     varchar(50)
 );
-INSERT INTO cliente (idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente)
-SELECT DISTINCT idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente
-FROM tb_locacao;
-
 
 CREATE TABLE carro (
     idCarro         int primary key,
@@ -43,19 +35,11 @@ CREATE TABLE carro (
     FOREIGN KEY (idCombustivel) REFERENCES combustivel(idCombustivel)
 );
 
-INSERT OR IGNORE INTO carro (idCarro, kmCarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idCombustivel)
-SELECT DISTINCT idCarro, kmCarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idcombustivel
-FROM tb_locacao;
-
-
 
 CREATE TABLE combustivel (
     idcombustivel   int primary key,
     tipoCombustivel varchar(15)
 );
-INSERT INTO combustivel(idcombustivel, tipoCombustivel)
-SELECT DISTINCT idcombustivel, tipoCombustivel
-FROM tb_locacao;
 
 
 CREATE TABLE vendedor (
@@ -64,6 +48,3 @@ CREATE TABLE vendedor (
     sexoVendedor     int,
     estadoVendedor   varchar (50)
 );
-INSERT INTO vendedor(idVendedor, nomeVendedor, sexoVendedor, estadoVendedor)
-SELECT DISTINCT idVendedor, nomeVendedor, sexoVendedor, estadoVendedor
-FROM tb_locacao;

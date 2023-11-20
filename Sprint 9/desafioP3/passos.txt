@@ -1,0 +1,2 @@
+A partir da modelagem elaborada no desafio P2, desenvolvi o script contendo duas entradas, sendo uma delas os arquivos Parquet do CSV e a outra do JSON. 
+Com base nisso, utilizei as tabelas desejadas e as enviei para os destinos definidos.

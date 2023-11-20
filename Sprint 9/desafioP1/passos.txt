@@ -1,0 +1,7 @@
+Código para transformação do CSV para Spark, feito sem dificuldades. 
+Fiz o código scriptJSON.py utilizando o Pandas, pois os mesmos arquivos gerados na sprint passada foram por ele. 
+Visto que o Spark tem outra maneira de formatação, os dados transformados em Parquet estavam saindo todos desformatados. 
+Sendo os códigos utilizando a formatação df.write.mode("append") para evitar possíveis perdas de arquivos ao sobrescrever; esse método utiliza a escrita adicional.
+
+Após a transformação, criei um banco de dados para testar os arquivos por meio de crawlers 
+para ser visualizado no Athena e verificar se os dados estavam corretos e sem nenhum tipo de problemas.
