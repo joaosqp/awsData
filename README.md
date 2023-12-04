@@ -29,6 +29,7 @@ Essa mudança de carreira se deu por dois fatores, sendo o primeiro que não fiq
 7. [Sprint 7](/Sprint%207/README.md)
 8. [Sprint 8](/Sprint%208/README.md)
 9. [Sprint 9](/Sprint%209/README.md)
+10. [Sprint 10](/Sprint%2010/README.md)
 
 ## Resumo
 ### Git e GitHub
@@ -124,5 +125,14 @@ Durante o percurso da sprint, que abrange desde os conceitos básicos até os av
 - [SQLite Studio](https://sqlitestudio.pl/);
 - [pgAdmin](https://www.pgadmin.org/);
 - [Python](https://www.python.org/);
-- [Docker](https://www.docker.com/).
+- [Docker](https://www.docker.com/);
+- [Amazon Athena](https://aws.amazon.com/pt/athena/);
+- [AWS Glue](https://aws.amazon.com/pt/glue/);
+- [Amazon S3](https://aws.amazon.com/pt/s3/);
+- [AWS Lambda](https://aws.amazon.com/pt/pm/lambda/);
+- [Amazon CloudWatch](https://aws.amazon.com/pt/cloudwatch/);
+- [AWS Lake Formation](https://aws.amazon.com/pt/lake-formation/);
+- [AWS IAM](https://aws.amazon.com/pt/iam/);
+- [Amazon EC2](https://aws.amazon.com/pt/ec2/);
+- [Amazon QuickSight](https://aws.amazon.com/pt/pm/quicksight/).
 </h4>
