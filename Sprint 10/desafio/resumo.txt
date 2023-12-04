@@ -1,0 +1,18 @@
+
+Iniciei o desafio pensando em uma premissa que pudesse me ajudar com o tema, pois, 
+a partir do momento em que se inicia, ficamos perdidos com as diversas possibilidades. 
+Sendo assim, resolvi escolher uma em que um investidor milionário deseja conhecer o mercado cinematográfico mais recente, 
+especificamente no segmento de filmes de comédia, para avaliar se vale a pena ou não investir nesse ramo.
+
+Após tomar essa decisão, optei por trabalhar com uma variedade ampla de dados para aprender e aprimorar meu conhecimento. 
+Dessa forma, selecionei mais de 300 filmes para avaliar com clareza e precisão o que foi solicitado.
+
+Escolhi os filmes lançados a partir de 2010, aplicando um filtro para mostrar como foi o processo de lucro, 
+quantidade de filmes lançados, e identificar os atores mais populares que contribuem significativamente para o sucesso financeiro dos filmes. 
+Utilizei gráficos para apresentar a média das notas dos filmes, proporcionando uma visão clara do panorama do gênero de comédia de acordo com as críticas.
+
+Para criar a coluna "lucro", subtrai a receita do orçamento de cada filme, gerando assim uma métrica representativa do desempenho financeiro.
+
+A parte mais desafiadora foi a elaboração da coluna "atores", pois, ao escolher quatro atores de maneira geral, 
+considerando gênero feminino e masculino, os dados foram quadruplicados. Diante disso, utilizei a média para representar esses atores em todos os gráficos, 
+proporcionando uma visão mais equilibrada e representativa do impacto dos atores no sucesso dos filmes.

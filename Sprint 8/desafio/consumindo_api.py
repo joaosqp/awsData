@@ -6,7 +6,6 @@ from datetime import date
 from io import StringIO
 
 def lambda_handler(event, context):
-    # Aqui você vai colocar sua chave da API
     api_key = '429396332743d52589579ea586d4057a'
     
     bucket = 'data-lake-do-joaosqp-filmes'
@@ -18,7 +17,6 @@ def lambda_handler(event, context):
     # Ler o arquivo do S3 diretamente em um DataFrame do Pandas
     df = pd.read_csv(objeto['Body'], sep="|", low_memory=False)
     
-    # Continuação do seu código...
     # Filtrar por filmes de Comédia lançados após 2000
     # Converta os valores da coluna 'anoLancamento' para inteiros antes de fazer a comparação
     df['anoLancamento'] = df['anoLancamento'].apply(lambda x: int(x) if x.isnumeric() else 0)
@@ -75,7 +73,7 @@ def lambda_handler(event, context):
         # Enviar a string JSON diretamente para o Amazon S3
         s3.put_object(Body=lote_json, Bucket=bucket, Key=path_s3)
         
-    #Aqui é coisa do lambda, n mexe só apaga o comentario depois
+
     return {
         'statusCode': 200,
         'body': json.dumps(f"Funcionou")
