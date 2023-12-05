@@ -11,7 +11,7 @@
 
 ## Apresentação
 
-  <img src="/Foto%20de%20perfil.png" width="300px" height="325px"/>
+  <img src="/Foto%20de%20perfil.png" width="325px" height="325px"/>
 
 
 
