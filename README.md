@@ -11,7 +11,7 @@
 
 ## Apresentação
 <div style="text-align: center;">
-  <img src="/Foto%20de%20perfil.png" style="width: 250px; height: 275px; margin: 0 auto;">
+  <img src="/Foto%20de%20perfil.png" style="width: 250px; height: 275px;">
 </div>
 
 
