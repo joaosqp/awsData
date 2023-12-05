@@ -10,7 +10,7 @@
 
 
 ## Apresentação
-<img src="/Foto%20de%20perfil.png" width="200px" height="250px" style="display: block; margin: 0 auto;">
+<img src="/Foto%20de%20perfil.png" width="250px" height="250px" style="display: block; margin: 0 auto;">
 
 
 <h4 align ="justify"> Meu nome é João Pedro, tenho 23 anos. Atualmente resido em Campo Grande - MS e curso Engenharia de Software na Universidade Federal de Mato Grosso do Sul.
