@@ -15,7 +15,7 @@
 
 
 
-<h4 align ="justify"> Meu nome é João Pedro, tenho 23 anos. Atualmente resido em Campo Grande - MS e curso Engenharia de Software na Universidade Federal de Mato Grosso do Sul.
+<h4 align ="justify"> Meu nome é João Pedro de Souza, tenho 23 anos. Atualmente resido em Campo Grande - MS e curso Engenharia de Software na Universidade Federal de Mato Grosso do Sul.
 
 Moro sozinho e fora do horário de aulas, trabalho como vendedor em uma tabacaria, o que não tem nada a ver com TI, mas aqui estou. Sempre estudo sozinho, com muita garra e orgulho disso. Nunca acreditei que minha vontade de desenvolver sites e quebrar a cabeça com React.js resultaria nessa oportunidade de atuar como "backend" agora serei o famoso full stack. Tenho o sonho de trabalhar com desenvolvimento de jogos. E estudar, que há alguns anos era chato, está se tornando um hábito que passei a gostar cada vez mais, principalmente agora que tenho visto bons resultados em alguns projetos pessoais.  
 Fiz o médio técnico integrado em eletrotécnica no Instituto Federal de Mato Grosso do Sul - Campus Campo Grande, uma vertente completamente diferente da área de TI, e achava que minha vocação estaria relacionada à Engenharia Elétrica por isso. Também fui presidente do grêmio, o que me gerou uma boa habilidade comunicativa com outras pessoas.  
